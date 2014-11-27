@@ -1,0 +1,174 @@
+{
+  "title": "Environmental Interest",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Location",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Feature",
+          "id": 3,
+          "ideas": {
+            "1": {
+              "title": "Feature Geography",
+              "id": 5
+            },
+            "2": {
+              "title": "Feature Type",
+              "id": 6
+            }
+          }
+        },
+        "2": {
+          "title": "Physical Address",
+          "id": 4,
+          "ideas": {
+            "1": {
+              "title": "Street Address",
+              "id": 8
+            },
+            "2": {
+              "title": "City",
+              "id": 9
+            },
+            "3": {
+              "title": "State/Locality",
+              "id": 10
+            },
+            "4": {
+              "title": "Postal Code",
+              "id": 11
+            },
+            "5": {
+              "title": "Country Code",
+              "id": 13
+            },
+            "2.5": {
+              "title": "Admin Geography",
+              "id": 12,
+              "attr": {
+                "style": {}
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Other Location",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "HUC/WBD",
+              "id": 14
+            },
+            "2": {
+              "title": "NHD Reach/Measure",
+              "id": 15
+            },
+            "3": {
+              "title": "Linear Reference",
+              "id": 16
+            },
+            "4": {
+              "title": "AAPG Basin",
+              "id": 17
+            }
+          }
+        },
+        "4": {
+          "title": "Point of Contact",
+          "id": 32,
+          "ideas": {
+            "1": {
+              "title": "Role",
+              "id": 33
+            },
+            "2": {
+              "title": "Name",
+              "id": 34
+            },
+            "4": {
+              "title": "Org",
+              "id": 36
+            },
+            "5": {
+              "title": "Telephone",
+              "id": 37
+            },
+            "6": {
+              "title": "email",
+              "id": 38
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "Business Process",
+      "id": 18,
+      "ideas": {
+        "1": {
+          "title": "Industrial Classification",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "SIC",
+              "id": 20
+            },
+            "2": {
+              "title": "NAICS",
+              "id": 21
+            },
+            "3": {
+              "title": "SCC",
+              "id": 22
+            },
+            "4": {
+              "title": "Other",
+              "id": 23
+            }
+          }
+        },
+        "2": {
+          "title": "Organizational Relationship",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "Org Name",
+              "id": 26
+            },
+            "2": {
+              "title": "Org Address",
+              "id": 28
+            },
+            "3": {
+              "title": "Org Identifier(s)",
+              "id": 29
+            }
+          },
+          "attr": {
+            "position": [
+              -39.5451935058594,
+              144.22220762939446,
+              1
+            ],
+            "style": {}
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 36,
+      "ideaIdTo": 25,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
