@@ -13,15 +13,128 @@
           "ideas": {
             "1": {
               "title": "Feature Geography",
-              "id": 5
+              "id": 5,
+              "ideas": {
+                "1": {
+                  "title": "Point",
+                  "id": 53
+                },
+                "2": {
+                  "title": "Line",
+                  "id": 54
+                },
+                "3": {
+                  "title": "Polygon",
+                  "id": 55
+                }
+              }
             },
             "2": {
               "title": "Feature Type",
-              "id": 6
+              "id": 6,
+              "ideas": {
+                "1": {
+                  "title": "Building",
+                  "id": 41
+                },
+                "2": {
+                  "title": "Process Unit",
+                  "id": 42
+                },
+                "3": {
+                  "title": "Air Stack",
+                  "id": 43
+                },
+                "4": {
+                  "title": "Water Outfall",
+                  "id": 44
+                },
+                "5": {
+                  "title": "Storage Tank",
+                  "id": 45
+                },
+                "6": {
+                  "title": "Parcel Boundary",
+                  "id": 48
+                },
+                "7": {
+                  "title": "Site Boundary",
+                  "id": 49
+                },
+                "8": {
+                  "title": "Site Centroid",
+                  "id": 52
+                },
+                "3.5": {
+                  "title": "Vent",
+                  "id": 46,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3.75": {
+                  "title": "Fugitive Release Point",
+                  "id": 47,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "1.5": {
+                  "title": "Front Door",
+                  "id": 50,
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "1.75": {
+                  "title": "Front Gate",
+                  "id": 51,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              },
+              "attr": {
+                "position": [
+                  90.99137878417969,
+                  229.8055095367431,
+                  1
+                ],
+                "style": {}
+              }
             }
+          },
+          "attr": {
+            "style": {},
+            "position": [
+              461.25,
+              -38.091739635468,
+              9
+            ]
           }
         },
-        "2": {
+        "6": {
+          "title": "Other Location",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "HUC/WBD",
+              "id": 14
+            },
+            "2": {
+              "title": "NHD Reach/Measure",
+              "id": 15
+            },
+            "4": {
+              "title": "AAPG Basin",
+              "id": 17
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "0.5": {
           "title": "Physical Address",
           "id": 4,
           "ideas": {
@@ -52,56 +165,50 @@
                 "style": {}
               }
             }
-          }
-        },
-        "3": {
-          "title": "Other Location",
-          "id": 7,
-          "ideas": {
-            "1": {
-              "title": "HUC/WBD",
-              "id": 14
-            },
-            "2": {
-              "title": "NHD Reach/Measure",
-              "id": 15
-            },
-            "3": {
-              "title": "Linear Reference",
-              "id": 16
-            },
-            "4": {
-              "title": "AAPG Basin",
-              "id": 17
-            }
-          }
-        },
-        "4": {
-          "title": "Point of Contact",
-          "id": 32,
-          "ideas": {
-            "1": {
-              "title": "Role",
-              "id": 33
-            },
-            "2": {
-              "title": "Name",
-              "id": 34
-            },
-            "4": {
-              "title": "Org",
-              "id": 36
-            },
-            "5": {
-              "title": "Telephone",
-              "id": 37
-            },
-            "6": {
-              "title": "email",
-              "id": 38
-            }
+          },
+          "attr": {
+            "position": [
+              33.108787536621094,
+              -174.3764271354678,
+              10
+            ],
+            "style": {}
           }
         }
+      }
+    },
+    "2": {
+      "title": "Point of Contact",
+      "id": 32,
+      "ideas": {
+        "1": {
+          "title": "Role",
+          "id": 33
+        },
+        "2": {
+          "title": "Name",
+          "id": 34
+        },
+        "4": {
+          "title": "Org",
+          "id": 36
+        },
+        "5": {
+          "title": "Telephone",
+          "id": 37
+        },
+        "6": {
+          "title": "email",
+          "id": 38
+        }
+      },
+      "attr": {
+        "style": {},
+        "position": [
+          95.30715942382812,
+          255.1483033180234,
+          2
+        ]
       }
     },
     "-1": {
@@ -145,16 +252,54 @@
             "3": {
               "title": "Org Identifier(s)",
               "id": 29
+            },
+            "4": {
+              "title": "Parent Org",
+              "id": 39
             }
           },
           "attr": {
             "position": [
-              -39.5451935058594,
-              144.22220762939446,
+              38.996490478515625,
+              123.11458663330075,
               1
             ],
             "style": {}
           }
+        }
+      }
+    },
+    "-0.5": {
+      "title": "Regulator Interest",
+      "id": 56,
+      "attr": {
+        "position": [
+          112.38034057617188,
+          -240.15876073837308,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "Program Guidance",
+          "id": 57
+        },
+        "0.5": {
+          "title": "Regulation",
+          "id": 58,
+          "attr": {
+            "position": [
+              133.3912124633788,
+              -84.39128398895264,
+              1
+            ],
+            "style": {}
+          }
+        },
+        "0.25": {
+          "title": "Statute",
+          "id": 59
         }
       }
     }
@@ -165,8 +310,8 @@
       "ideaIdTo": 25,
       "attr": {
         "style": {
-          "color": "#FF0000",
-          "lineStyle": "dashed"
+          "color": "#c0c0c0",
+          "lineStyle": "solid"
         }
       }
     }
